@@ -1,0 +1,8 @@
+version: '3'
+services:
+  callapi:
+    container_name: callapi
+    image: "callapi"
+    build: .
+    ports:
+      - "8181:8181"
